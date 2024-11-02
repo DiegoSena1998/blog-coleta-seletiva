@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal da Reciclagem</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilo da sidebar */
+        .sidebar {
+            background-color: #f8f8f8; /* Cor de fundo do quadrado */
+            padding: 15px; /* Espaçamento interno */
+            border-radius: 8px; /* Bordas arredondadas */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+        }
+
+        .sidebar p.red-text {
+            color: red; /* Define a cor vermelha para o texto */
+            margin: 0; /* Remove margens para melhor alinhamento */
+        }
+
+        .sidebar img {
+            max-width: 80px; /* Tamanho máximo para a imagem do logo */
+            display: block; /* Exibe a imagem como um bloco */
+            margin-top: 10px; /* Espaçamento acima da imagem */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Portal da Reciclagem</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="/pontos-de-coleta.html">Pontos de Coleta</a></li>
+                <li><a href="#">Reciclagem</a></li>
+                <li><a href="/informações.html">Informações</a></li>
+                <li><a href="/quem-somos.html">Quem Somos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <div class="map-container">
+            <!-- Espaço para inserir imagem adicional -->
+            <img src="/lixeiras-de-coleta-seletiva-larplasticos-1.jpg" alt="Imagem Adicional" class="imagem-extra">
+        </div>
+        <div class="sidebar">
+            <div class="weather">
+                <p><strong>Uma colaboração </strong></p>
+                <p class="red-text">com a instituição UNIVESP</p> <!-- Texto em vermelho -->
+                <img src="/Univesp_logo.jpg" alt="Logo da UNIVESP"> <!-- Imagem do logo -->
+            </div>
+            <ul class="sidebar-menu">
+                <li><a href="#">Notícias Locais</a></li>
+                <li><a href="#">Seja Membro</a></li>
+                <li><a href="#">DOCs</a></li>
+                <li><a href="#">Sugestões</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="recycle-bins">
+        <div class="bin papel">
+            <button onclick="location.href='lixeira.html'">Papel</button>
+        </div>
+        <div class="bin plastico">
+            <button onclick="location.href='plastico.html'">Plástico</button>
+        </div>
+        <div class="bin vidro">
+            <button onclick="location.href='vidros.html'">Vidro</button>
+        </div>
+        <div class="bin metal">
+            <button onclick="location.href='metal.html'">Metal</button>
+        </div>
+        <div class="bin organico">
+            <button onclick="location.href='organico.html'">Orgânico</button>
+        </div>
+        <div class="bin nao-reciclavel">
+            <button onclick="location.href='nao-reciclavel.html'">Não Reciclável</button>
+        </div>
+    </div>
+
+    <footer>
+       
+    </footer>
+</body>
+</html>

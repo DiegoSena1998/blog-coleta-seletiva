@@ -1,0 +1,240 @@
+Preciso que faça esse ajuste neste CSS
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4caf5c;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+   
+    position: relative;
+}
+
+.mapa {
+    width: 60%;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 0;
+}
+
+.weather {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-menu li {
+    margin-bottom: 15px;
+}
+
+.sidebar-menu li a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.recycle-bins {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.bin {
+    text-align: center;
+}
+
+.bin img {
+    width: 100px;
+    height: auto;
+}
+
+/* Botão do Papel (azul) */
+.bin.papel button {
+    background-color: #0000FF; /* Azul */
+    color: white;
+}
+
+/* Botão do Plástico (vermelho) */
+.bin.plastico button {
+    background-color: #FF0000; /* Vermelho */
+    color: white;
+}
+
+/* Botão do Vidro (verde) */
+.bin.vidro button {
+    background-color: #008000; /* Verde */
+    color: white;
+}
+
+/* Botão do Metal (amarelo) */
+.bin.metal button {
+    background-color: #FFFF00; /* Amarelo */
+    color: black; /* Texto preto para contraste */
+}
+
+/* Botão do Orgânico (marrom) */
+.bin.organico button {
+    background-color: #8B4513; /* Marrom */
+    color: white;
+}
+
+/* Botão do Não Reciclável (cinza) */
+.bin.nao-reciclavel button {
+    background-color: #808080; /* Cinza */
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8; /* Tornar o botão ligeiramente mais escuro ao passar o mouse */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4caf5c;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/* Estiliza os links específicos no menu de navegação */
+nav ul li a {
+    color: #000; /* Cor padrão para os links */
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Alterando a cor dos itens específicos */
+nav ul li:nth-child(1) a { /* Home */
+    color: #FF6347; /* Altere para a cor desejada */
+}
+
+nav ul li:nth-child(2) a { /* Pontos de Coleta */
+    color: #1E90FF; /* Altere para a cor desejada */
+}
+
+nav ul li:nth-child(3) a { /* Reciclagem */
+    color: #1eff83; /* Altere para a cor desejada */
+}
+
+nav ul li:nth-child(4) a { /* Informações */
+    color: #8B4513; /* Altere para a cor desejada */
+}
+nav ul li:nth-child(5) a { /* Informações */
+    color: yellow; /* Altere para a cor desejada */
+}
+
+/* Estilizando os botões */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px; /* Borda arredondada */
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s; /* Suavizar transformações */
+}
+
+/* Efeito ao passar o mouse nos botões */
+button:hover {
+    transform: scale(1.05); /* Leve aumento ao passar o mouse */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
+    opacity: 0.9;
+}
+
+/* Botão do Papel (azul) */
+.bin.papel button {
+    background-color: #0000FF; /* Azul */
+    color: white;
+}
+.bin.papel button:hover {
+    background-color: #0000FF; /* Azul mantido */
+}
+
+/* Botão do Plástico (vermelho) */
+.bin.plastico button {
+    background-color: #FF0000; /* Vermelho */
+    color: white;
+}
+.bin.plastico button:hover {
+    background-color: #FF0000; /* Vermelho mantido */
+}
+
+/* Botão do Vidro (verde) */
+.bin.vidro button {
+    background-color: #008000; /* Verde */
+    color: white;
+}
+.bin.vidro button:hover {
+    background-color: #008000; /* Verde mantido */
+}
+
+/* Botão do Metal (amarelo) */
+.bin.metal button {
+    background-color: #FFFF00; /* Amarelo */
+    color: black; /* Texto preto para contraste */
+}
+.bin.metal button:hover {
+    background-color: #FFFF00; /* Amarelo mantido */
+}
+
+/* Botão do Orgânico (marrom) */
+.bin.organico button {
+    background-color: #8B4513; /* Marrom */
+    color: white;
+}
+.bin.organico button:hover {
+    background-color: #8B4513; /* Marrom mantido */
+}
+
+/* Botão do Não Reciclável (cinza) */
+.bin.nao-reciclavel button {
+    background-color: #808080; /* Cinza */
+    color: white;
+}
+.bin.nao-reciclavel button:hover {
+    background-color: #808080; /* Cinza mantido */
+}
+sidebar img {
+    max-width: 120px; /* Tamanho máximo para a imagem do logo */
+    display: block; /* Exibe a imagem como um bloco */
+    margin-top: 40px; /* Espaçamento acima da imagem */
+}
