@@ -236,5 +236,16 @@ button:hover {
 sidebar img {
     max-width: 120px; /* Tamanho máximo para a imagem do logo */
     display: block; /* Exibe a imagem como um bloco */
-    margin-top: 40px; /* Espaçamento acima da imagem */
+    margin-top: 80px; /* Espaçamento acima da imagem */
+}
+.map-container {
+    display: flex;
+    justify-content: flex-start; /* Alinha o conteúdo para a esquerda */
+    padding-right: px; /* Espaço opcional entre a imagem e a sidebar */
+    width: 60%; /* Ajuste proporcional ao layout */
+}
+
+.imagem-extra {
+    max-width: 100%; /* Garante que a imagem se adapte ao tamanho do contêiner */
+    margin-left: -20px; /* Move a imagem para a esquerda */
 }
